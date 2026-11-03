@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const api = axios.create({
-    baseURL: ["http://localhost:3000","moodify-backend-envx2i7p3-newdeveloper1.vercel.app"],
+    baseURL:"moodify-backend-envx2i7p3-newdeveloper1.vercel.app",
     withCredentials: true
 })
 
