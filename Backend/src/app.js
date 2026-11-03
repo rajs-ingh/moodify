@@ -14,6 +14,12 @@ app.use(cors({
 /**
  * Routes
  */
+
+app.get("/", (req, res) => {
+    res.status(200).json({
+        message: "Moodify Backend is running!"
+    });
+});
 const authRoutes = require("./routes/auth.routes")
 const songRoutes = require("./routes/song.routes")
 
