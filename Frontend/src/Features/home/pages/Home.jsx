@@ -1,5 +1,5 @@
 import React from 'react'
-import FaceExpression from '../../expression/components/FaceExpression'
+import FaceExpression from '../../expression/Components/FaceExpression'
 import Player from '../components/Player'
 import { useSong } from '../hooks/useSong'
 
